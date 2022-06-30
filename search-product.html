@@ -1,23 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tim 4</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tim 4</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
-<body>
-  <!--Navbar-->
-  <nav class="navbar bg-light">
-    <div class="container text-center p-3">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1 "><a href="index.html" class="text-decoration-none">Tim 4 Qubisa</a></span>
-      </div>
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	  <link rel="stylesheet" href="css/style.css">
+    <style>
+      .zoom {
+          transition: transform .2s; /* Animation */
+          position: relative;
+      }
+      .zoom:hover {
+          transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+      .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+      }
+      #header{
+        position: sticky;
+        top: -1px;
+        z-index: 99;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!--Navbar-->
+    <div id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container-fluid">
+	    
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="fa fa-bars"></span> Home
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav m-auto">
+	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	        	<li class="nav-item"><a href="index.html.#flashsale" class="nav-link">Flash Sale</a></li>
+	        	<li class="nav-item"><a href="index.html.#makeup" class="nav-link">Make Up</a></li>
+	          <li class="nav-item"><a href="#footer" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
     </div>
-  </nav>
   <!---->
 
   <!--Detail Product-->
@@ -76,9 +115,8 @@
     </div>
   </div>
   <!--end-->
-
+  <section id="footer">
   <footer class="text-center text-lg-start bg-light text-muted">
-    <section class="">
       <div class="container text-center text-md-start mt-5">
         <div class="row mt-3 pt-5 pb-5">
           <!-- Grid column -->
